@@ -2,9 +2,14 @@
 
 ## setup
 1. 先下載poetry
-```bash
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-```
+- windows
+  ```bash
+  (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+  ```
+- mac
+  ```bash
+  brew install poetry
+  ```
 2. 設定環境變數
 - windows
   - 開環境變數
